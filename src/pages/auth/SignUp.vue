@@ -1,20 +1,20 @@
 <template>
     <div class="flex justify-center items-center py-10">
-        <div class="signup-form bg-white shadow-primary rounded-md p-10 md:w-[600px]">
-          <h1 class="text-[26px] mb-4 font-bold text-center">Create An Account.</h1>
+        <div class="signup-form bg-white shadow-primary rounded-md p-10 md:w-[600px] w-[90%]">
+          <h1 class="text-[26px] mb-4 font-bold text-center">Create An Account</h1>
           <p class="text-center text-gray-500 text-[14px]">Hi there, Welcome to Dealbod. Let’s get your account set-up</p>
-  
+
           <!-- form -->
           <form class="mt-8">
             <div class="form-group mb-5">
               <label class="block mb-2 text-[14px] font-semibold">What is your primary goal for using Workflo?</label>
-              <div class="flex mt-5">
+              <div class="flex sm:flex-row gap-2 flex-col mt-5">
                   <div class="flex items-center mr-4">
-                      <input id="business" type="radio" value="business" name="goal" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                      <input id="business" type="radio" value="business" name="goal" class="w-4 h-4 text-black bg-gray-100 border-gray-300 focus:ring-black dark:focus:ring-black dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
                       <label for="business" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">I have a business</label>
                   </div>
                   <div class="flex items-center mr-4">
-                      <input id="invest" type="radio" value="invest" name="goal" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                      <input id="invest" type="radio" value="invest" name="goal" class="w-4 h-4 text-black bg-gray-100 border-gray-300 focus:ring-black dark:focus:ring-black dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
                       <label for="invest" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">I want to invest in Businesses</label>
                   </div>
               </div>
@@ -28,7 +28,7 @@
                 <input type="email" class="border-gray-300 rounded-[6px] text-gray-500 text-[14px] w-full" placeholder="Enter your email">
                 <img src="/images/tooltip-icon.svg" alt="tooltip" class="absolute right-4 top-[13px]">
               </div>
-              <div class="note flex gap-4 items-start mt-2">
+              <div class="note flex gap-2 items-start mt-2">
                 <img src="/images/info-circle.svg" alt="info">
                 <p class="text-gray-500 text-[14px]">Make sure you can access this email, to verify it.</p>
               </div>
@@ -38,7 +38,7 @@
             <div class="form-group mb-5">
               <label for="password" class="block mb-2 text-[14px] text-gray-700 font-medium">Password</label>
               <input type="password" class="border-gray-300 rounded-[6px] text-gray-500 text-[14px] w-full" placeholder="Enter your password">
-              <div class="note flex gap-4 items-start mt-2">
+              <div class="note flex gap-2 items-start mt-2">
                 <img src="/images/info-circle.svg" alt="info">
                 <p class="text-gray-500 text-[14px]">Password should have at least 8 characters or more, should have 1 uppercase, lowercase letters and 1 number.</p>
               </div>
@@ -58,15 +58,15 @@
             </button>
           </div>
   
-          <p class="text-gray-500 mt-6 text-center">Already have an account? <router-link to="/login" class="text-primaryPurple">Login in</router-link></p>
+          <p class="text-gray-500 mt-6 text-center">Don’t have an account? <router-link to="/login" class="text-primaryPurple">Sign up</router-link></p>
         </div>
     </div>
-  </template>
+ </template>
   
-  <script>
+<script>
   
   export default {
     name: 'SignUpPage',
   }
-  </script>
+</script>
   

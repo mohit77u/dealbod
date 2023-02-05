@@ -12,4 +12,13 @@ html{
     // background: rgb(243, 244, 246);
 }
 
-@import './responsive.scss'
+@import './responsive.scss';
+
+.mobile-menu{
+    position: absolute;
+    left: 0;
+    top: 90px;
+    z-index: 100;
+    width: 100%;
+    background: white;
+}   

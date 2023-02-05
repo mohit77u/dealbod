@@ -41,9 +41,19 @@ const routes = [
     component: MarketLayout,
     children: [
       {
+        path: '/startup',
+        name: 'Startup',
+        component: () => import('../pages/StartUpPage.vue')
+      },
+      {
         path: '/market-place',
         name: 'MarketPlace',
         component: () => import('../pages/MarketPlace.vue')
+      },
+      {
+        path: '/my-listing',
+        name: 'MyListing',
+        component: () => import('../pages/MyListing.vue')
       },
     ]
   },

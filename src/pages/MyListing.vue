@@ -2,19 +2,6 @@
     <div class="py-10 bg-gray-100">
         <div class="container mx-auto ms:px-0 px-4">
             <h1 class="text-black mb-8 text-[26px] font-bold">Marketplace</h1>
-           <!-- top bar -->
-            <div class="bg-[#ECECEC] p-5 py-4 my-5 rounded-[6px] flex md:items-center justify-between md:flex-row flex-col gap-4 w-full">
-                <div class="flex items-center gap-4 md:w-8/12 w-full">
-                    <img src="/images/info-circle.svg" alt="info">
-                    <p class="text-gray-700 text-[16px]">Good afternoon, Adesewa. Seems like your profile is missing a few details. Kindly complete your profile set-up to gain all premium access to what Dealbod has to offer.</p>
-                </div>
-                <div class="flex items-center gap-4">
-                    <button class="bg-black w-auto text-white text-[14px] py-3 rounded-[6px] px-7">Complete Profile Setup</button>
-                    <button>
-                        <img src="/images/close-circle.svg" alt="close-icon" class="ml-2">
-                    </button>
-                </div>
-            </div>
 
             <!-- main grid -->
             <div class="grid lg:grid-cols-7 md:grid-cols-5 grid-cols-1 gap-5 mb-5 mt-10">
@@ -221,7 +208,7 @@
 
 <script>
 export default {
-    name: 'MarketPlace',
+    name: 'MyListing',
     data(){
         return {
             sortOptions: [
