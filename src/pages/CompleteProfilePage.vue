@@ -1,6 +1,6 @@
 <template>
     <div class="complete-profile flex justify-center items-center py-10">
-        <div class="signup-form bg-white shadow-primary rounded-md p-10 md:w-[600px]">
+        <div class="signup-form bg-white shadow-primary rounded-md p-10 md:w-[600px] w-[90%]">
           <h1 class="text-[26px] mb-4 font-bold text-center">Complete Profile</h1>
           <p class="text-center text-gray-500 text-[14px]">Hi there, Welcome to Dealbod. Let’s get your account set-up</p>
           <div class="bg-lightGray p-5 py-3 my-5 rounded-[6px] flex items-center gap-4 w-full">
