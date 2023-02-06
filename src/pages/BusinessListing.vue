@@ -276,20 +276,20 @@
                             
                             <div class="grid sm:grid-cols-2 grid-cols-1 gap-6 my-5">
                                 <div class="flex flex-col w-full justify-center items-center gap-y-3 py-4 px-6 bg-[#F9F3FD] text-primaryPurple rounded">
-                                    <img src="/images/icons/briefcase-blue.svg" alt="briefcase" class="mx-auto">
-                                    <p class="text-gray-700 leading-4 text-[12px] text-center">TTM Gross Revenue</p>
+                                    <img src="/images/icons/customers.svg" alt="customers" class="mx-auto">
+                                    <p class="text-gray-700 leading-4 text-[12px] text-center">Customers</p>
                                     <h4 class="text-black text-[22px] text-center font-bold">₦234K</h4>
                                 </div>
 
                                 <div class="flex flex-col w-full justify-center items-center gap-y-3 py-4 px-6 bg-[#F9F3FD] text-primaryPurple rounded">
-                                    <img src="/images/icons/profit.svg" alt="profit" class="mx-auto">
-                                    <p class="text-gray-700 leading-4 text-[12px] text-center">TTM Net Profit</p>
+                                    <img src="/images/icons/growth-rate.svg" alt="growth-rate" class="mx-auto">
+                                    <p class="text-gray-700 leading-4 text-[12px] text-center">Annual Growth Rate</p>
                                     <h4 class="text-black text-[22px] text-center font-bold">₦23K</h4>
                                 </div>
 
                                 <div class="flex flex-col w-full justify-center items-center gap-y-3 py-4 px-6 bg-[#F9F3FD] text-primaryPurple rounded col-span-2">
-                                    <img src="/images/icons/revenue.svg" alt="revenue" class="mx-auto">
-                                    <p class="text-gray-700 leading-4 text-[12px] text-center">Last Month Gross Revenue</p>
+                                    <img src="/images/icons/recc-revenue.svg" alt="recc-revenue" class="mx-auto">
+                                    <p class="text-gray-700 leading-4 text-[12px] text-center">Annual Recurring Revenue</p>
                                     <h4 class="text-black text-[22px] text-center font-bold">₦234K</h4>
                                 </div>
 
