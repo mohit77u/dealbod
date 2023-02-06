@@ -55,6 +55,11 @@ const routes = [
         name: 'MyListing',
         component: () => import('../pages/MyListing.vue')
       },
+      {
+        path: '/business-listing',
+        name: 'BusinessListing',
+        component: () => import('../pages/BusinessListing.vue')
+      },
     ]
   },
 ]

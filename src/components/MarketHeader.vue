@@ -29,7 +29,11 @@
                             </router-link>
                         </li>
                         <li>
-                            <button class="block py-3 px-6 bg-lightGray text-primaryPurple rounded" @click="upgradePopup = true">Upgrade</button>
+                            <button class="block py-3 px-6 bg-lightGray text-primaryPurple rounded" @click="upgradePopup = true" v-if="$route.name != 'BusinessListing'">Upgrade</button>
+                            <button class="block py-3 px-6 bg-lightYellow text-primaryYellow rounded flex justify-center gap-2 items-center" v-else>
+                                Premium Access
+                                <img src="/images/icons/star-yellow.svg" alt="start-yellow">
+                            </button>
                         </li>
                         <li class="relative">
                             <button class="flex gap-3 items-center">

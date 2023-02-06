@@ -11,6 +11,8 @@ module.exports = {
       },
       colors: {
         'primaryPurple':  '#9D34DA',
+        'primaryYellow':  '#CC9900',
+        'lightYellow':  '#F7F0D9',
         'lightGray':  '#F9F3FD',
         'red':  '#FC2F2F',
       },
